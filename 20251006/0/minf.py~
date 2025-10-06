@@ -1,0 +1,2 @@
+def MINF(f0, f1, *args):
+    return lambda x: min([f0, f1] + [f(x) for f in args])

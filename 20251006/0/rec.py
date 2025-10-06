@@ -1,0 +1,8 @@
+def recursion(n):
+    if n > 0:
+        recursion(n-1)
+
+    return
+
+if __name__ == '__main__':
+    recursion(int(input()))

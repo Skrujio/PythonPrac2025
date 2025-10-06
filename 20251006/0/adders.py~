@@ -1,0 +1,2 @@
+def ADDERS(n):
+    return [lambda x: x + n for range(n)]
